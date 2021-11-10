@@ -1,0 +1,23 @@
+cmd: python src/train.py data/train models/iris-classifier && mlem link models/iris-classifier
+  latest
+deps:
+- path: data/train
+  md5: 10f5eefe06021b4cd5f66466333c7cb6.dir
+  size: 2927
+  nfiles: 3
+- path: src/train.py
+  md5: 2bb80c065990598550f7ae77ec11062d
+  size: 1044
+params:
+  params.yaml:
+    train.min_split: 2
+    train.n_est: 1
+    train.seed: 20170428
+outs:
+- path: models/iris-classifier/artifacts
+  md5: aa5aad9514bd570c66bd30c966f8b2dc.dir
+  size: 3711
+  nfiles: 1
+- path: models/iris-classifier/mlem.yaml
+  md5: 76064077a4b92a0f8c2eb1303b336cb5
+  size: 2338

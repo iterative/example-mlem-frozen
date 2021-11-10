@@ -1,0 +1,27 @@
+cmd: python src/generate_data.py
+deps:
+- path: src/generate_data.py
+  md5: 30821c9048f57ee89b8194416e274243
+  size: 503
+outs:
+- path: data/test_x/artifacts
+  md5: 45ad5a27e9d3869460e7fe38b6b847f1.dir
+  size: 804
+  nfiles: 1
+- path: data/test_x/mlem.yaml
+  md5: 3242463f89e714495b43e67a6a14c0e5
+  size: 432
+- path: data/test_y/artifacts
+  md5: 04a1c6122f248c99cdbbf3949d5c189e.dir
+  size: 209
+  nfiles: 1
+- path: data/test_y/mlem.yaml
+  md5: d3ebcd3d47db581ee1b8fa8909474739
+  size: 307
+- path: data/train/artifacts
+  md5: dcfc49b9bd0ca43366c2ee1758b3c2af.dir
+  size: 2459
+  nfiles: 1
+- path: data/train/mlem.yaml
+  md5: 8e3750f81edbb59ec9566b9eb94124b0
+  size: 457

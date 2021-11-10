@@ -1,0 +1,18 @@
+cmd: mlem apply latest data/test_x -m predict_proba -o data/pred
+deps:
+- path: data/test_x
+  md5: 952ee0daa9e41120b55f9293360994f7.dir
+  size: 1247
+  nfiles: 3
+- path: models/iris-classifier
+  md5: 940e9acdfbf482e9d2b720ed9ec59673.dir
+  size: 84156
+  nfiles: 3
+outs:
+- path: data/pred/artifacts
+  md5: 6ae3a282c962c56d837eb75afee40bb3.dir
+  size: 354
+  nfiles: 1
+- path: data/pred/mlem.yaml
+  md5: 41353b3f6f3b802ab60f315600c7a397
+  size: 243

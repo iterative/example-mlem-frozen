@@ -1,0 +1,17 @@
+cmd: python src/score.py data/pred data/test_y scores.json
+deps:
+- path: data/pred
+  md5: f7dc717879a69fc840e2905a896c46fb.dir
+  size: 502
+  nfiles: 3
+- path: data/test_y
+  md5: 4a28a881c80e0d171fcf099c315bf6d6.dir
+  size: 527
+  nfiles: 3
+- path: src/score.py
+  md5: c15f2cbcb74ab4de4fc8bfffaf65c7bd
+  size: 666
+outs:
+- path: scores.json
+  md5: cc01ea8a38b7bb36862cc3de4fa96818
+  size: 37
